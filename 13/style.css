@@ -1,0 +1,10 @@
+.switch {
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.button {
+    width: 50%;
+}

@@ -1,0 +1,21 @@
+.color-box {
+    width: 110px;
+    height: 110px;
+}
+
+.container {
+    border:solid black;
+    display:flex;
+}
+
+.input-holder {
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+.wrapper {
+    border: solid red;
+    display: flex;
+    width: 380px;
+}

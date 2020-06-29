@@ -5,11 +5,6 @@ Vue.component('words-to-list', {
             listWords: this.words.split(' ')
         }
     },
-    watch: {
-        words: function (val) {
-            console.log(val);
-        }
-    },
     template:
     `
         <div>
@@ -20,9 +15,9 @@ Vue.component('words-to-list', {
     `
 });
 
-var options = {
+let options = {
     el: '#app',
     template: `<words-to-list words="go for it"></words-to-list>`
 };
 
-var vm = new Vue(options);
+let vm = new Vue(options);
